@@ -1,0 +1,21 @@
+# Extension (after the main result): does the written-init advantage change
+# under Muon? muon_lr applies to hidden weight matrices; lr to everything else.
+# The numpy Muon is lightly tested: verify it before trusting results.
+tasks: [sparse_parity, gridnav]
+arms:
+  - {name: random, kind: random}
+  - {name: opus, kind: written, source: claude-opus-5-5__claudecode-noexec}
+budgets: [0, 16, 64, 256, 1024]
+seeds: [0, 1, 2, 3, 4]
+lr: [3.0e-4, 1.0e-3, 3.0e-3]
+weight_decay: [0.0, 0.1]
+muon_lr: [0.005, 0.02, 0.05]
+optimizer: muon
+batch_size: 64
+max_steps: 3000
+eval_every: 50
+patience: 10
+val_size: 256
+test_size: 2000
+workers: 0
+require_audited: true

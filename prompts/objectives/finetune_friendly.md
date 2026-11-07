@@ -1,0 +1,1 @@
+Make the network, exactly as you write it, achieve high accuracy on inputs drawn from the distribution described above. It will then be used as the starting point for gradient-based fine-tuning on a small labeled dataset, so where you can, also keep it trainable: avoid saturated or permanently inactive units, and keep logit magnitudes moderate.

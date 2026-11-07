@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+results/smoke*/
+# Reference weights are rebuilt by scripts/build_reference.py
+inits/*/reference/*/weights.npz
+.DS_Store
+# Isolation-check scratch files (removed automatically)
+.isolation_canary
+.isolation_write_test
+# Scrubbed public copy (scripts/scrub_publish.py); push it, never this repo's history
+publish/

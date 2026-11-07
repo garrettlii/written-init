@@ -1,0 +1,25 @@
+# Phase 2 follow-up F1, parity confirmation (docs/PHASE2_PLAN.md Amendments, 2026-11-04). Run name:
+# phase2_parity_f1. New instances i3-i5, the same three audited samples, budgets and seeds as F1;
+# everything else as phase2.yaml. Change only by a dated amendment.
+# Analyze with: uv run python scripts/analyze.py results/phase2_parity_f1 --primary-budgets 256   (F1a)
+tasks: [parity_hidden_i3, parity_hidden_i4, parity_hidden_i5]
+arms:
+  - {name: random, kind: random}
+  - {name: opus, kind: written, source: claude-opus-5-5__claudecode-noexec__finetune_family}
+  - {name: opus_noise, kind: written_noise, source: claude-opus-5-5__claudecode-noexec__finetune_family, alpha: 0.1}
+  - {name: opus_shuffled_noise, kind: shuffled_noise, source: claude-opus-5-5__claudecode-noexec__finetune_family, alpha: 0.1}
+  - {name: opus_norm_matched, kind: norm_matched, source: claude-opus-5-5__claudecode-noexec__finetune_family}
+  - {name: opus_shuffled, kind: shuffled, source: claude-opus-5-5__claudecode-noexec__finetune_family}   # secondary (dead-unit confound)
+budgets: [0, 16, 64, 96, 128, 192, 256, 384, 512, 1024]
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]   # 4 per sample per instance (sample = seed % 3)
+lr: [1.0e-4, 3.0e-4, 1.0e-3, 3.0e-3, 1.0e-2]
+weight_decay: [0.0, 0.1]
+optimizer: adamw
+batch_size: 64
+max_steps: 3000
+eval_every: 50
+patience: 10
+val_size: 256
+test_size: 2000
+workers: 0   # 0 = all cores
+require_audited: true

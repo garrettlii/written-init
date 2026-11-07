@@ -1,0 +1,30 @@
+{
+  "disableAllHooks": true,
+  "permissions": {
+    "deny": [
+      "Read(/~/**)",
+      "Edit(/~/**)",
+      "Write(/~/**)",
+      "Read(/~/projects/written-init/**)",
+      "Edit(/~/projects/written-init/**)",
+      "Write(/~/projects/written-init/**)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "allowUnsandboxedCommands": false,
+    "autoAllowBashIfSandboxed": false,
+    "filesystem": {
+      "denyRead": [
+        "~",
+        "~/projects/written-init"
+      ]
+    },
+    "network": {
+      "allowedDomains": []
+    }
+  }
+}

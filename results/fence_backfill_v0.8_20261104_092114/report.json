@@ -1,0 +1,352 @@
+{
+  "created": "20261104_092114",
+  "sessions": [
+    {
+      "transcript": "inits/digits8x8/claude-opus-5-5__claudecode-noexec/sample_00/attempt0.transcript.jsonl",
+      "audited": false,
+      "status": "ok",
+      "session_id": "e46cce49-003d-4c8c-adc4-7ad20bf498fb",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-wve1kfld/e46cce49-003d-4c8c-adc4-7ad20bf498fb.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/digits8x8/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "audited": false,
+      "status": "ok",
+      "session_id": "d7996697-4292-4576-8751-7e30701baf8d",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-wortgtfe/d7996697-4292-4576-8751-7e30701baf8d.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/digits8x8/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "audited": false,
+      "status": "ok",
+      "session_id": "c9386f6b-d2dc-4c14-8fdb-c75804d3cb61",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-y24zdy4a/c9386f6b-d2dc-4c14-8fdb-c75804d3cb61.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/rejected_00/attempt0.transcript.jsonl",
+      "audited": false,
+      "status": "ok",
+      "session_id": "19f5db69-6dfb-4b8b-b53d-ffc50731ef5b",
+      "profile": "main",
+      "session_log": "~/.claude/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-mlbyjdzt/19f5db69-6dfb-4b8b-b53d-ffc50731ef5b.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "8640f512-2d03-4f60-a8a9-fbcc214246c7",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-ax5wxbuz/8640f512-2d03-4f60-a8a9-fbcc214246c7.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "5f314c8a-8961-4cc8-b13b-1763f3d2dd12",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-2p70mzzv/5f314c8a-8961-4cc8-b13b-1763f3d2dd12.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/sample_03/attempt0.transcript.jsonl",
+      "audited": false,
+      "status": "ok",
+      "session_id": "3305cdb3-cf76-4107-a24d-b7a3603dbb4a",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-du9h1m55/3305cdb3-cf76-4107-a24d-b7a3603dbb4a.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/ring2d/claude-opus-5-5__claudecode-noexec/sample_00/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "c1a9cddf-455c-4d8c-bc77-db1058bba66d",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-h1db1-cb/c1a9cddf-455c-4d8c-bc77-db1058bba66d.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/ring2d/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "1a414d59-57e5-48ac-b1e2-c407a055e11f",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-sqwr-1lr/1a414d59-57e5-48ac-b1e2-c407a055e11f.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/ring2d/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "audited": false,
+      "status": "ok",
+      "session_id": "1ed6a407-fec5-4005-bfc8-cf8a11eeea2b",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-i0v85eun/1ed6a407-fec5-4005-bfc8-cf8a11eeea2b.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/sparse_parity/claude-opus-5-5__claudecode-noexec/sample_00/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "d346b6bb-df99-4531-9a2d-502348bcff21",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-ar0-b0v5/d346b6bb-df99-4531-9a2d-502348bcff21.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/sparse_parity/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "857c3b3b-b51a-4316-91ca-4115de2c5c29",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-ptoywky0/857c3b3b-b51a-4316-91ca-4115de2c5c29.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "inits/sparse_parity/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "audited": true,
+      "status": "ok",
+      "session_id": "9d702f53-e4bd-47b0-93ee-b6d0bb493e4d",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-8idoi-b1/9d702f53-e4bd-47b0-93ee-b6d0bb493e4d.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "results/isolation/claude_noexec_20261104_035732/check.transcript.jsonl",
+      "audited": null,
+      "status": null,
+      "session_id": "b93cab82-9d33-4cb9-886c-a491a1553a7d",
+      "profile": "main",
+      "session_log": "~/.claude/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-phnwe95k/b93cab82-9d33-4cb9-886c-a491a1553a7d.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "ListAgents",
+        "Read",
+        "ReportFindings",
+        "ScheduleWakeup",
+        "ShareOnboardingGuide",
+        "Skill",
+        "ToolSearch",
+        "Workflow",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, ListAgents, ReportFindings, ScheduleWakeup, ShareOnboardingGuide, Skill, ToolSearch, Workflow, advisor"
+    },
+    {
+      "transcript": "results/isolation/claude_noexec_20261104_042415/check.transcript.jsonl",
+      "audited": null,
+      "status": null,
+      "session_id": "5ebc80b0-acb7-4dda-8731-bf8852e22952",
+      "profile": "main",
+      "session_log": "~/.claude/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-kzyii0-7/5ebc80b0-acb7-4dda-8731-bf8852e22952.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "results/isolation/claude_noexec_20261104_044223/check.transcript.jsonl",
+      "audited": null,
+      "status": null,
+      "session_id": "66beb4a5-f813-4c70-8927-f2c016d173d1",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-qlyjsm4m/66beb4a5-f813-4c70-8927-f2c016d173d1.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    },
+    {
+      "transcript": "results/isolation/claude_noexec_20261104_084939/check.transcript.jsonl",
+      "audited": null,
+      "status": null,
+      "session_id": "40b5ae75-a0e5-477e-81c6-338c64f00f91",
+      "profile": "study",
+      "session_log": "~/.claude-written-init/projects/-private-var-folders-vv-zyff93v5391cmw7j8mlcf1ym0000gn-T-wi-agent-euyio3q4/40b5ae75-a0e5-477e-81c6-338c64f00f91.jsonl",
+      "request_tools": [
+        "DeferredToolPlaceholder",
+        "Edit",
+        "Read",
+        "Write",
+        "advisor"
+      ],
+      "session_error": null,
+      "server_blocks": [],
+      "advisor_offered": true,
+      "advisor_invoked": false,
+      "request_violation": "API requests carried tools beyond the designed set: DeferredToolPlaceholder, advisor"
+    }
+  ]
+}

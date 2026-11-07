@@ -1,0 +1,9 @@
+family,source,test,arm_a,arm_b,budget,n_instances,n_pairs,mean_diff,ci_lo,ci_hi
+parity_hidden,reference,structure,reference_noise,reference_shuffled_noise,0,3,6,0.005916666666666663,0.000416666666666667,0.011416666666666658
+parity_hidden,reference,structure,reference_noise,reference_shuffled_noise,16,3,6,0.0027499999999999933,-0.0050000000000000044,0.01049999999999999
+parity_hidden,reference,structure,reference_noise,reference_shuffled_noise,128,3,6,0.0015833333333333255,-0.002000000000000011,0.005166666666666662
+parity_hidden,reference,structure,reference_noise,reference_shuffled_noise,256,3,6,0.019,0.008999999999999989,0.02900000000000001
+parity_hidden,reference,scale,reference,reference_norm_matched,0,3,6,0.00366666666666667,0.00366666666666667,0.00366666666666667
+parity_hidden,reference,scale,reference,reference_norm_matched,16,3,6,-0.0001666666666666483,-0.008416666666666637,0.00808333333333334
+parity_hidden,reference,scale,reference,reference_norm_matched,128,3,6,0.003500000000000012,-0.007749999999999961,0.014749999999999985
+parity_hidden,reference,scale,reference,reference_norm_matched,256,3,6,0.000916666666666649,-0.007750000000000016,0.009583333333333314

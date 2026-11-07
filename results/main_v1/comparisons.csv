@@ -1,0 +1,67 @@
+task,source,test,arm_a,arm_b,budget,n_seeds,mean_diff,ci_lo,ci_hi
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,0,5,0.04455611390284757,0.021440536013400343,0.0693467336683417
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,16,5,0.06733668341708543,0.05460636515912898,0.0814070351758794
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,64,5,0.03283082077051926,0.014070351758793943,0.051926298157453955
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,256,5,0.01809045226130652,0.01072026800670014,0.026800670016750416
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,0,5,0.2589614740368509,0.25594639865996643,0.2619765494137353
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,16,5,0.07839195979899498,0.0445561139028476,0.10519262981574536
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,64,5,0.04288107202680069,0.024790619765494147,0.062311557788944774
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,256,5,0.019095477386934668,-0.001340033500837512,0.04422110552763812
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,0,5,0.24489112227805693,0.2331658291457286,0.2556113902847571
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,16,5,0.10385259631490791,0.0760217755443886,0.13735343383584592
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,64,5,0.04991624790619766,0.034840871021775556,0.06499162479061978
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,256,5,0.016080402010050277,-0.00335008375209378,0.03551088777219431
+gridnav,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,0,5,0.8055999999999999,0.7185333333333334,0.9058666666666666
+gridnav,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,16,5,0.6930666666666667,0.6648,0.7222933333333333
+gridnav,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,64,5,0.618,0.6012,0.6352
+gridnav,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,256,5,0.4302666666666667,0.4133333333333334,0.4505333333333333
+gridnav,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,1024,5,0.17506666666666665,0.16293333333333332,0.1864
+gridnav,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,4096,5,0.06893333333333333,0.05613333333333337,0.07906666666666665
+gridnav,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,0,5,0.8249333333333334,0.8024000000000001,0.8497333333333333
+gridnav,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,16,5,0.7156,0.6865333333333334,0.7442666666666666
+gridnav,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,64,5,0.6198666666666666,0.6092,0.6330666666666668
+gridnav,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,256,5,0.47639999999999993,0.4626666666666666,0.4914666666666666
+gridnav,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,1024,5,0.19840000000000002,0.18000000000000002,0.21960000000000002
+gridnav,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,4096,5,0.08919999999999999,0.05960000000000001,0.11586666666666663
+gridnav,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,0,5,0.8539999999999999,0.7593333333333333,0.9486666666666667
+gridnav,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,16,5,0.7069333333333333,0.6943999999999999,0.7194666666666667
+gridnav,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,64,5,0.6275999999999999,0.6177333333333335,0.6362666666666666
+gridnav,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,256,5,0.37839999999999996,0.36626666666666663,0.39626666666666666
+gridnav,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,1024,5,0.15093333333333334,0.14733333333333334,0.15453333333333336
+gridnav,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,4096,5,0.042133333333333335,0.030666666666666665,0.05427333333333329
+ring2d,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,0,5,0.04499999999999997,-0.1153,0.20449999999999996
+ring2d,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,16,5,0.1286,0.1079,0.14870000000000003
+ring2d,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,64,5,0.0829,0.05139749999999996,0.10840000000000002
+ring2d,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,256,5,0.02200000000000002,0.013400000000000013,0.030500000000000017
+ring2d,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,1024,5,0.01499999999999999,0.008499999999999952,0.02230000000000003
+ring2d,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,4096,5,0.0127,0.006000000000000005,0.020100000000000007
+ring2d,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,0,5,0.4617,0.34740000000000004,0.5835999999999999
+ring2d,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,16,5,0.2752,0.22810000000000005,0.3145
+ring2d,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,64,5,0.10990000000000003,0.10010000000000001,0.12190000000000001
+ring2d,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,256,5,0.053000000000000005,0.04320000000000004,0.06459999999999999
+ring2d,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,1024,5,0.02530000000000001,0.021799999999999996,0.029300000000000014
+ring2d,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,4096,5,0.024800000000000023,0.019199999999999995,0.03420000000000005
+ring2d,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,0,5,0.45059999999999995,0.3383,0.5649
+ring2d,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,16,5,0.24909999999999996,0.21309999999999998,0.287
+ring2d,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,64,5,0.10810000000000002,0.0981,0.11810000000000002
+ring2d,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,256,5,0.04160000000000001,0.037900000000000024,0.04690000000000001
+ring2d,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,1024,5,0.02410000000000001,0.020500000000000008,0.027300000000000012
+ring2d,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,4096,5,0.013500000000000022,0.00800000000000003,0.021700000000000032
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,0,5,0.4396999999999999,0.3637,0.4971
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,16,5,0.4819000000000001,0.46210000000000007,0.5003
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,64,5,0.49119999999999997,0.46929999999999994,0.5058
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,256,5,0.3155,0.1464,0.4539999999999999
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,1024,5,0.0,0.0,0.0
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,4096,5,0.0,0.0,0.0
+sparse_parity,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,0,5,0.49510000000000004,0.49450000000000005,0.4963
+sparse_parity,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,16,5,0.495,0.486795,0.5006999999999999
+sparse_parity,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,64,5,0.4971,0.49139999999999995,0.5029
+sparse_parity,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,256,5,0.33540000000000003,0.24749999999999997,0.43190000000000006
+sparse_parity,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,1024,5,0.0,0.0,0.0
+sparse_parity,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,4096,5,0.0,0.0,0.0
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,0,5,0.5055000000000001,0.5055000000000001,0.5055000000000001
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,16,5,0.5105,0.507,0.514
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,64,5,0.5054000000000001,0.5025999999999999,0.5079
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,256,5,0.5034,0.49729749999999995,0.5096999999999999
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,1024,5,0.1146,0.0,0.31779999999999997
+sparse_parity,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,4096,5,0.15330000000000002,0.0,0.35550000000000004

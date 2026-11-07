@@ -1,0 +1,6 @@
+{
+  "source": "reference",
+  "note": "Hand-built for pipeline testing only. Never report as an experimental arm.",
+  "audited": true,
+  "audit_notes": "Closed-form construction; no data, fitting or randomness."
+}

@@ -1,0 +1,23 @@
+# Phase 1 digits rerun (docs/PHASE2_PLAN.md A.5). Run name: main_v1_digits. Supersedes the digits rows
+# of main_v1 for reporting. Same arms, HP grid and training as default.yaml.
+tasks: [digits8x8]
+arms:
+  - {name: random, kind: random}
+  - {name: opus, kind: written, source: claude-opus-5-5__claudecode-noexec}
+  - {name: opus_noise, kind: written_noise, source: claude-opus-5-5__claudecode-noexec, alpha: 0.1}
+  - {name: opus_shuffled_noise, kind: shuffled_noise, source: claude-opus-5-5__claudecode-noexec, alpha: 0.1}
+  - {name: opus_norm_matched, kind: norm_matched, source: claude-opus-5-5__claudecode-noexec}
+  - {name: opus_shuffled, kind: shuffled, source: claude-opus-5-5__claudecode-noexec}   # secondary (dead-unit confound)
+budgets: [0, 16, 64, 256, 1024]   # A.4 pool rule: 1024 becomes digits' 1,000-example pool
+seeds: [0, 1, 2, 3, 4, 5]         # 2 per sample with 3 samples
+lr: [1.0e-4, 3.0e-4, 1.0e-3, 3.0e-3, 1.0e-2]
+weight_decay: [0.0, 0.1]
+optimizer: adamw
+batch_size: 64
+max_steps: 3000
+eval_every: 50
+patience: 10
+val_size: 256
+test_size: 2000
+workers: 0   # 0 = all cores
+require_audited: true

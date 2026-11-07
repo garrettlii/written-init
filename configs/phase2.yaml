@@ -1,0 +1,24 @@
+# Phase 2 main sweep (docs/PHASE2_PLAN.md B.7). Run name: phase2_v1. Pre-registered: change only by a
+# dated amendment. This file also fills the finetune_family objective's placeholders at generation time
+# (generate_init.py --objective finetune_family --config configs/phase2.yaml), so the prompt matches it.
+tasks: [parity_hidden_i0, parity_hidden_i1, parity_hidden_i2, ring_hidden_i0, ring_hidden_i1, ring_hidden_i2, gridnav_hidden_i0, gridnav_hidden_i1, gridnav_hidden_i2]
+arms:
+  - {name: random, kind: random}
+  - {name: opus, kind: written, source: claude-opus-5-5__claudecode-noexec__finetune_family}
+  - {name: opus_noise, kind: written_noise, source: claude-opus-5-5__claudecode-noexec__finetune_family, alpha: 0.1}
+  - {name: opus_shuffled_noise, kind: shuffled_noise, source: claude-opus-5-5__claudecode-noexec__finetune_family, alpha: 0.1}
+  - {name: opus_norm_matched, kind: norm_matched, source: claude-opus-5-5__claudecode-noexec__finetune_family}
+  - {name: opus_shuffled, kind: shuffled, source: claude-opus-5-5__claudecode-noexec__finetune_family}   # secondary (dead-unit confound)
+budgets: [0, 16, 64, 256, 1024, 4096]   # A.4 pool rule: gridnav_hidden's 4096 becomes its pool size
+seeds: [0, 1, 2, 3, 4, 5]   # 2 per sample with 3 samples per family
+lr: [1.0e-4, 3.0e-4, 1.0e-3, 3.0e-3, 1.0e-2]
+weight_decay: [0.0, 0.1]
+optimizer: adamw
+batch_size: 64
+max_steps: 3000
+eval_every: 50
+patience: 10
+val_size: 256
+test_size: 2000   # gridnav_hidden's test split is 1,500
+workers: 0   # 0 = all cores
+require_audited: true

@@ -1,0 +1,27 @@
+# Main experiment. `source` must match a folder under inits/<task>/, named
+# <model>__<harness>-<condition> by scripts/generate_init.py. Changing grids, budgets or tasks changes the
+# protocol: log the change in docs/DECISIONS.md first.
+tasks: [sparse_parity, ring2d, gridnav, digits8x8]
+arms:
+  - {name: random, kind: random}
+  - {name: opus, kind: written, source: claude-opus-5-5__claudecode-noexec}
+  - {name: opus_noise, kind: written_noise, source: claude-opus-5-5__claudecode-noexec, alpha: 0.1}
+  - {name: opus_shuffled_noise, kind: shuffled_noise, source: claude-opus-5-5__claudecode-noexec, alpha: 0.1}
+  - {name: opus_norm_matched, kind: norm_matched, source: claude-opus-5-5__claudecode-noexec}
+  - {name: opus_shuffled, kind: shuffled, source: claude-opus-5-5__claudecode-noexec}   # secondary (dead-unit confound)
+  # Other harnesses/conditions are separate arms, never pooled with the above:
+  # - {name: opus_tools, kind: written, source: claude-opus-5-5__claudecode-tools}
+  # - {name: sol_ro, kind: written, source: gpt-6.1-sol__codex-ro}
+budgets: [0, 16, 64, 256, 1024, 4096]   # digits8x8 caps at its 1,000-example pool
+seeds: [0, 1, 2, 3, 4]
+lr: [1.0e-4, 3.0e-4, 1.0e-3, 3.0e-3, 1.0e-2]
+weight_decay: [0.0, 0.1]
+optimizer: adamw
+batch_size: 64
+max_steps: 3000
+eval_every: 50
+patience: 10
+val_size: 256
+test_size: 2000
+workers: 0   # 0 = all cores
+require_audited: true   # run /audit-init on every sample before the main sweep

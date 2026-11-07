@@ -1,0 +1,23 @@
+# Phase 2 pipeline check with the hand-built family references (no agent sessions). Settings as
+# smoke.yaml. Not an experimental result.
+tasks: [parity_hidden_i0, parity_hidden_i1, parity_hidden_i2, ring_hidden_i0, ring_hidden_i1, ring_hidden_i2, gridnav_hidden_i0, gridnav_hidden_i1, gridnav_hidden_i2]
+arms:
+  - {name: random, kind: random}
+  - {name: reference, kind: written, source: reference}
+  - {name: reference_noise, kind: written_noise, source: reference, alpha: 0.1}
+  - {name: reference_shuffled_noise, kind: shuffled_noise, source: reference, alpha: 0.1}
+  - {name: reference_norm_matched, kind: norm_matched, source: reference}
+  - {name: reference_shuffled, kind: shuffled, source: reference}   # secondary (dead-unit confound)
+budgets: [0, 16, 64, 4096]   # 4096 exercises the pool rule on gridnav_hidden
+seeds: [0, 1]
+lr: [1.0e-3, 1.0e-2]
+weight_decay: [0.0]
+optimizer: adamw
+batch_size: 64
+max_steps: 600
+eval_every: 50
+patience: 4
+val_size: 256
+test_size: 2000
+workers: 0
+require_audited: false

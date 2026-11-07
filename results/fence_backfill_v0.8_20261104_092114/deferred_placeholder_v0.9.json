@@ -1,0 +1,153 @@
+{
+  "created": "20261104_093109",
+  "question": "Did any existing session contain a tool_use or server_tool_use block named DeferredToolPlaceholder?",
+  "n_sessions": 18,
+  "n_offered": 18,
+  "total_calls": 0,
+  "sessions": [
+    {
+      "name": "digits8x8__claude-opus-5-5__claudecode-noexec__sample_00.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/digits8x8__claude-opus-5-5__claudecode-noexec__sample_00.attempt0.session.jsonl",
+      "transcript": "inits/digits8x8/claude-opus-5-5__claudecode-noexec/sample_00/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "digits8x8__claude-opus-5-5__claudecode-noexec__sample_01.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/digits8x8__claude-opus-5-5__claudecode-noexec__sample_01.attempt0.session.jsonl",
+      "transcript": "inits/digits8x8/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "digits8x8__claude-opus-5-5__claudecode-noexec__sample_02.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/digits8x8__claude-opus-5-5__claudecode-noexec__sample_02.attempt0.session.jsonl",
+      "transcript": "inits/digits8x8/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "gridnav__claude-opus-5-5__claudecode-noexec__rejected_00.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/gridnav__claude-opus-5-5__claudecode-noexec__rejected_00.attempt0.session.jsonl",
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/rejected_00/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "gridnav__claude-opus-5-5__claudecode-noexec__sample_01.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/gridnav__claude-opus-5-5__claudecode-noexec__sample_01.attempt0.session.jsonl",
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "gridnav__claude-opus-5-5__claudecode-noexec__sample_02.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/gridnav__claude-opus-5-5__claudecode-noexec__sample_02.attempt0.session.jsonl",
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "gridnav__claude-opus-5-5__claudecode-noexec__sample_03.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/gridnav__claude-opus-5-5__claudecode-noexec__sample_03.attempt0.session.jsonl",
+      "transcript": "inits/gridnav/claude-opus-5-5__claudecode-noexec/sample_03/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "ring2d__claude-opus-5-5__claudecode-noexec__sample_00.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/ring2d__claude-opus-5-5__claudecode-noexec__sample_00.attempt0.session.jsonl",
+      "transcript": "inits/ring2d/claude-opus-5-5__claudecode-noexec/sample_00/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "ring2d__claude-opus-5-5__claudecode-noexec__sample_01.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/ring2d__claude-opus-5-5__claudecode-noexec__sample_01.attempt0.session.jsonl",
+      "transcript": "inits/ring2d/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "ring2d__claude-opus-5-5__claudecode-noexec__sample_02.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/ring2d__claude-opus-5-5__claudecode-noexec__sample_02.attempt0.session.jsonl",
+      "transcript": "inits/ring2d/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "sparse_parity__claude-opus-5-5__claudecode-noexec__sample_00.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/sparse_parity__claude-opus-5-5__claudecode-noexec__sample_00.attempt0.session.jsonl",
+      "transcript": "inits/sparse_parity/claude-opus-5-5__claudecode-noexec/sample_00/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "sparse_parity__claude-opus-5-5__claudecode-noexec__sample_01.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/sparse_parity__claude-opus-5-5__claudecode-noexec__sample_01.attempt0.session.jsonl",
+      "transcript": "inits/sparse_parity/claude-opus-5-5__claudecode-noexec/sample_01/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "sparse_parity__claude-opus-5-5__claudecode-noexec__sample_02.attempt0",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/sparse_parity__claude-opus-5-5__claudecode-noexec__sample_02.attempt0.session.jsonl",
+      "transcript": "inits/sparse_parity/claude-opus-5-5__claudecode-noexec/sample_02/attempt0.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "isolation__claude_noexec_20261104_035732",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/isolation__claude_noexec_20261104_035732.session.jsonl",
+      "transcript": "results/isolation/claude_noexec_20261104_035732/check.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "isolation__claude_noexec_20261104_042415",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/isolation__claude_noexec_20261104_042415.session.jsonl",
+      "transcript": "results/isolation/claude_noexec_20261104_042415/check.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "isolation__claude_noexec_20261104_044223",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/isolation__claude_noexec_20261104_044223.session.jsonl",
+      "transcript": "results/isolation/claude_noexec_20261104_044223/check.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "isolation__claude_noexec_20261104_084939",
+      "session_log": "results/fence_backfill_v0.8_20261104_092114/session_logs/isolation__claude_noexec_20261104_084939.session.jsonl",
+      "transcript": "results/isolation/claude_noexec_20261104_084939/check.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    },
+    {
+      "name": "isolation__claude_noexec_20261104_092822",
+      "session_log": "results/isolation/claude_noexec_20261104_092822/check.session.jsonl",
+      "transcript": "results/isolation/claude_noexec_20261104_092822/check.transcript.jsonl",
+      "offered": true,
+      "calls_in_session_log": 0,
+      "calls_in_transcript": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+task,source,test,arm_a,arm_b,budget,n_seeds,mean_diff,ci_lo,ci_hi
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,0,6,0.06588498045784479,0.010322445561139032,0.1574539363484087
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,16,6,0.08989391401451703,0.05499720826353993,0.11892797319932998
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,64,6,0.04438860971524287,0.030981295365717445,0.0577889447236181
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,256,6,0.007258514796203208,0.003908431044109391,0.010608598548297024
+digits8x8,claude-opus-5-5__claudecode-noexec,structure,opus_noise,opus_shuffled_noise,1000,6,0.005025125628140707,-0.0011166945840312599,0.011725293132328321
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,0,6,0.41317699609156894,0.32719151312116135,0.49832495812395305
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,16,6,0.11250697934115023,0.05413176996091573,0.17868509212730316
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,64,6,0.0496929089893914,0.023450586264656608,0.07426018983807925
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,256,6,0.02261306532663317,0.004745951982132919,0.037409268565047483
+digits8x8,claude-opus-5-5__claudecode-noexec,scale,opus,opus_norm_matched,1000,6,0.00865438302624231,0.005025125628140688,0.012283640424343933
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,0,6,0.40536013400335014,0.3137911781127862,0.4963707426018984
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,16,6,0.10385259631490788,0.06700167504187605,0.13595756560580682
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,64,6,0.0413176996091569,0.024008933556672236,0.05862646566164156
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,256,6,0.010887772194304868,-0.004745951982132864,0.029034059184812926
+digits8x8,claude-opus-5-5__claudecode-noexec,structure (secondary),opus,opus_shuffled,1000,6,0.00865438302624233,-0.003357063093244012,0.02178950307091005
